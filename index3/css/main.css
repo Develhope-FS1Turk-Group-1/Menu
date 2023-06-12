@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Clothe_PERSONAL_USE_ONLY.ttf);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-bottom: 125px;
+    background-size: 25%;
+    background-color: #333;
+    
+}
+
+header {text-align: center;
+        height: 200px;
+        margin-bottom: -20px;
+        font-size: 45px;  
+        background-color: #F9B629;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: myFont;
+}
+
+h3 {color: #F9B629; 
+    font-size:80px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: myFont;
+    font-weight: 100;
+}
+
+h4 {font-size:30px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: -35px;}
+
+table {list-style:none;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600
+}
+
+td {font-size: 20px;
+    padding: 10px;
+    padding-right: 35px;}
+
+td p {font-size: 15px;
+    font-weight: 100;}
+
+.drinks {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cocktails {padding-top: 150px;
+
+}
+
+.costly {background-color: #F9B629;
+        color: #000;
+        font-weight: 700;
+        border-radius: 20px;
+}
+
+img {width: 294.31px;}
+
+
+a {position:fixed;right: 0px; bottom: 0px;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    border-radius: 90%;
+    background-image: url(../assets/Gülücük.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 15px #fff;
+    }
