@@ -3,74 +3,92 @@
     src: url(../fonts/Clothe_PERSONAL_USE_ONLY.ttf);
 }
 
-
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    margin-bottom: 125px;
-    background-size: 25%;
-    background-color: #333;
-    
+    height: 1034px;
+    padding-top: 0px;
+    background-image:url(../assets/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top ;
+    background-color: bisque;
 }
 
-header {text-align: center;
-        height: 200px;
-        margin-bottom: -20px;
-        font-size: 45px;  
-        background-color: #F9B629;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-family: myFont;
+header {
+    text-align: center;
+    height: 200px;
+    font-size: 45px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: myFont;
 }
 
 h3 {color: #F9B629; 
-    font-size:80px;
+    font-size:50px;
     margin-bottom: 10px;
     text-align: center;
     font-family: myFont;
     font-weight: 100;
 }
 
-h4 {font-size:30px;
+h4 {font-size:18px;
     font-family: "Open Sans", sans-serif;
-    margin-top: -35px;}
+    margin-top: -35px;
+}
 
 table {list-style:none;
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600
+    font-weight: 600;
+    border-spacing: 30px 0;
+    margin-top: -30px;
 }
 
-td {font-size: 20px;
+td {font-size: 12px;
     padding: 10px;
-    padding-right: 35px;}
+    padding-right: 0px;
+}
 
-td p {font-size: 15px;
-    font-weight: 100;}
+td p {font-size: 9px;
+    font-weight: 100;
+    margin-top: 8px;
+}
 
 .drinks {
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
 }
 
-.cocktails {padding-top: 150px;
-
+.cocktails {padding-top: 80px;
 }
 
-.costly {background-color: #F9B629;
+.cocktails .costly {margin-top:8px;}
+
+.mojitos{
+    margin-top: 260px;
+    
+}
+
+.specials {
+    margin-top: 270px;
+    
+}
+
+.specials .costly {margin-bottom: 40px;}
+
+.costly {
         color: #000;
         font-weight: 700;
-        border-radius: 20px;
+        margin:10px 0px 10px 0px ;
 }
-
-img {width: 294.31px;}
-
 
 a {position:fixed;right: 0px; bottom: 0px;
     height: 50px;
@@ -80,4 +98,4 @@ a {position:fixed;right: 0px; bottom: 0px;
     background-image: url(../assets/Gülücük.jpg);
     background-size: cover;
     box-shadow: 0px 0px 15px #fff;
-    }
+}
