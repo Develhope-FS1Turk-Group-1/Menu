@@ -1,0 +1,121 @@
+body{
+    height: 1034px;
+    padding-top: 0px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center top;
+    background-color: bisque;
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-right: 370px;
+    padding-top: 340px;
+    column-gap: 20px;
+}
+
+div.left_side,
+div.right_side{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 172px;
+    justify-content: center;
+}
+
+div.right_side{ 
+    color: white;
+}
+
+
+div.title{
+    font-family: cursive;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.menu {
+    font-size: 11px;
+    padding-top: 5px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.dot-line {
+    position: relative;
+    width: 1px;
+    height: 200px;
+    border-left: 2px dotted #000;
+}
+
+.dot-line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    border-radius: 50%;
+    background-color: #000;
+}
+hr{
+    border: 1px dotted #000;
+}
+div.middle_dot{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.middle_dot, div.middle_title_dot{
+    text-align: center;
+    margin: auto;
+}
+
+div.middle_title_dot{
+    display: flex;
+    column-gap: 1px;
+}
+div.rnd{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+div.rnd_black{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+div.rnd_title{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+div.specialties{
+    padding-bottom: 10px;
+}
+div.desserts{
+    padding-top: 10px;
+}
+div.right_side div.rnd_title{
+    background-color: white;
+}
+
+div.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.rnd_line {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
