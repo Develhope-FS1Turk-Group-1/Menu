@@ -63,11 +63,13 @@ body{
 
 .fruits{
   display: flex;
+  justify-content: center;
 }
 
 .fruits img{
-  width: 100px;
-  margin-right: 10px;
+  width: 20%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .fruit-description{
